@@ -18,4 +18,6 @@
   x => { ... } // 一个参数可以省略 ()
   (x, y) => { ... } // 多参数不能省略 ()
 
+  参考：https://imququ.com/post/arrow-function-in-es6.html
+
 ```
