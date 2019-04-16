@@ -1,4 +1,4 @@
-# 代码规范
+# 代码规范 and es 6、7、8、9、10
 
 * [JavaScript](JavaScript.md)
 * [React](React.md)
