@@ -177,6 +177,7 @@ reGreekSymbol.test('π') // true
 ## 8 非转义序列的模板字符串
 ```javascript
 之前，\u开始一个unicode转义，\x开始一个十六进制转义，\后跟一个数字开始一个八进制转义。
-这使得创建特定的字符串变得不可能，例如Windows文件路径 C:\uuu\xxx\111。更多细节参考
-[模板字符串](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings)
+这使得创建特定的字符串变得不可能，例如Windows文件路径 C:\uuu\xxx\111。更多细节参考模板字符串
+注：模版字符串 参考
+    https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings
 ```
