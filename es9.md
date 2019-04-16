@@ -3,7 +3,7 @@
 * [1 异步迭代](#1-异步迭代)
 * [2 Promise.finally()](#2-Promise.finally())
 * [3 Rest/Spread属性](#3-Rest/Spread属性)
-* [4 正则表达式命名捕获组(Regular Expression Named Capture Groups)](#4-正则表达式命名捕获组(Regular Expression Named Capture Groups))
+* [4 正则表达式命名捕获组](#4-正则表达式命名捕获组)
 * [5 正则表达式反向断言(lookbehind)](#5-正则表达式反向断言(lookbehind))
 * [6 正则表达式dotAll模式](#6-正则表达式dotAll模式)
 * [7 正则表达式Unicode转义](#7-正则表达式Unicode转义)
@@ -104,8 +104,9 @@ const obj2 = { ...obj1, z: 26 }
 如果一个对象A的属性是对象B，那么在克隆后的对象cloneB中，该属性指向对象B。
 ```
 
-## 4 正则表达式命名捕获组(Regular Expression Named Capture Groups)
+## 4 正则表达式命名捕获组
 ```javascript
+Regular Expression Named Capture Groups
 JavaScript正则表达式可以返回一个匹配的对象——一个包含匹配字符串的类数组，例如：以YYYY-MM-DD的格式解析日期：
 
 const reDate = /([0-9]{4})-([0-9]{2})-([0-9]{2})/,
@@ -176,5 +177,6 @@ reGreekSymbol.test('π') // true
 ## 8 非转义序列的模板字符串
 ```javascript
 之前，\u开始一个unicode转义，\x开始一个十六进制转义，\后跟一个数字开始一个八进制转义。
-这使得创建特定的字符串变得不可能，例如Windows文件路径 C:\uuu\xxx\111。更多细节参考<a href='https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings'>模板字符串</a>。
+这使得创建特定的字符串变得不可能，例如Windows文件路径 C:\uuu\xxx\111。更多细节参考
+'<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings">模板字符串</a>'
 ```
